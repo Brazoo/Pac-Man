@@ -2,7 +2,7 @@
   Projeto experimento
   
   Créditos:
-  Luiz
-  Mateus
-  Rosenildo
+  Luiz,
+  Mateus,
+  Rosenildo,
   Hiago
