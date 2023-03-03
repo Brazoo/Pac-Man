@@ -1,7 +1,7 @@
-  <center>PAC-MAN</center>
-  Projeto experimento
+  <center><b>PAC-MAN</b></center><br><br>
+  <i>Projeto experimento</i>
   
-  Créditos: <br>
+  <br>Créditos: <br>
   Luiz, <br>
   Mateus, <br>
   Rosenildo, <br>
