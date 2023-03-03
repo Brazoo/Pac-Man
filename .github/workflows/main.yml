@@ -11,5 +11,5 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v2
       - name: Executar script Python
-        run: readme.md
+        run: README.md
 
