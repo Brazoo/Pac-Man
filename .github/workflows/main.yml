@@ -1,0 +1,15 @@
+name: Cronômetro a cada hora
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Executa a cada hora
+jobs:
+  cronometro:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Início do cronômetro
+        run: echo "Iniciando cronômetro..."
+      - name: Esperar 1 hora
+        run: sleep 3600
+      - name: Ação após 1 hora
+        run: echo "1 hora passou!"
