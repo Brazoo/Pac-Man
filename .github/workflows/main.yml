@@ -1,15 +1,17 @@
-name: Meu Workflow
+name: Cronômetro a cada hora
 
 on:
   schedule:
-    - cron: "0 * * * *"
-
+    - cron: '0 * * * *' # Executa a cada hora
 jobs:
-  executar_codigo:
+  cronometro:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout do código
-        uses: actions/checkout@v2
-      - name: Executar script Python
-        run: README.md
+      - name: Início do cronômetro
+        run: echo "Iniciando cronômetro..."
+      - name: Esperar 1 hora
+        run: sleep 3600
+      - name: Ação após 1 hora
+        run: echo "1 hora passou!"
+
 
