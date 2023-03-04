@@ -1,5 +1,5 @@
   <center><b>PAC-MAN</b></center><br><br>
-  <i>Projeto experimento</i>
+  <i>Projeto experimento de um pac man</i>
   
   <br>Créditos: <br>
   Luiz, <br>
